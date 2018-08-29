@@ -5,5 +5,18 @@
   <title>data bind demo</title>
 </head>
 <body>
+	<div id="app">
+		<input type="text" v-model="name" placeholder="input name here" />
+		<h1>Hi, {{ name }}</h1>
+	</div>
+<script src="../js/vue.min.js"></script>
+<script>
+	var app = new Vue({
+		el: '#app',
+		data: {
+			name: ''
+		}
+	})
+</script>
 </body>
 </html>
