@@ -1,0 +1,29 @@
+.Opponent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.OpponentHandWrapper {
+  height: 70%;
+}
+
+.OpponentHand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.OpponentName {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  display: inline;
+  color: #ffffff;
+  background: rgba(0,0,0,0.75);
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,18 @@
+.Player {
+  position: relative;
+  height: 100%;
+}
+
+.PlayerHandWrapper {
+  width: 100%;
+  height: 70%;
+}
+
+.PlayerName {
+  position: absolute;
+  bottom: 20%;
+  color: #ffffff;
+  background: rgba(0,0,0,0.75);
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+}
