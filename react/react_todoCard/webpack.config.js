@@ -1,7 +1,11 @@
-import webpack from 'webpack';
-import path from 'path';
+// import webpack from 'webpack';
+// import path from 'path';
+var path = require('path');
+var webpack = require('webpack');
 
-export default {
+
+//export default {
+module.exports = {
     devtool: 'eval',
     debug: true,
     entry: [
