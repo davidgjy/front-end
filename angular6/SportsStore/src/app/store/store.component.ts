@@ -26,16 +26,18 @@ export class StoreComponent {
 
   changeCategory(newCategory?: string) {
     this.selectedCategory = newCategory;
-      this.changePage(1);
+    this.changePage(1);
   }
 
   changePage(newPage: number) {
     this.selectedPage = newPage;
   }
+
   changePageSize(newSize: number) {
     this.productsPerPage = Number(newSize);
     this.changePage(1);
   }
+
   get pageNumbers(): number[] {
     return Array(Math.ceil(this.repository
       .getProducts(this.selectedCategory).length / this.productsPerPage))
