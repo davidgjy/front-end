@@ -59,12 +59,12 @@ export default new Vuex.Store({
       state.productsTotal = data.pdata.length;
       state.categoriesData = data.cdata.sort();
     },
-    actions: {
-      async getData(context) {
-        let pdata = (await Axios.get(productsUrl)).data;
-        let cdata = (await Axios.get(categoriesUrl)).data;
-        context.commit("setData", { pdata, cdata });
-      },
+  },
+  actions: {
+    async getData(context) {
+      let pdata = (await Axios.get(productsUrl)).data;
+      let cdata = (await Axios.get(categoriesUrl)).data;
+      context.commit("setData", { pdata, cdata });
     },
-  }
+  },
 });

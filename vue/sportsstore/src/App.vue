@@ -9,7 +9,7 @@ export default {
   name: "app",
   components: { Store },
   methods: {
-    ...mapActions(["getData"]),
+    ...mapActions(["getData"])
   },
   created() {
     this.getData();
