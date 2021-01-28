@@ -1,0 +1,17 @@
+Reactjs code snippets
+React Redux ES6 Snippets
+JavaScript (ES6) code snippets
+React-Native/React/Redux snippets for es6/es7
+Typescript React code snippets
+
+One Dark Pro
+vscode-icons
+
+Beautify css/sass/scss/less
+npm Intellisense
+Path Intellisense
+cssrem
+CSS Modules
+HTML CSS Support
+Markdown All in One
+Settings Sync
