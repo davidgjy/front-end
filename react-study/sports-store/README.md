@@ -27,3 +27,8 @@ npx create-react-app sports-store
 - npm install --save-dev npm-run-all@4.1.3
 - npm install --save-dev connect-history-api-fallback@1.5.0
 
+#### REST API
+
+- http://localhost:3500/api/products
+- http://localhost:3500/api/products/1
+- 
